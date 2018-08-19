@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05DA85DA212A16BA00C8858F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DA85D9212A16BA00C8858F /* AppDelegate.swift */; };
+		05DA85DC212A16BA00C8858F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DA85DB212A16BA00C8858F /* ViewController.swift */; };
+		05DA85DF212A16BA00C8858F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05DA85DD212A16BA00C8858F /* Main.storyboard */; };
+		05DA85E1212A16BA00C8858F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DA85E0212A16BA00C8858F /* Assets.xcassets */; };
+		05DA85E4212A16BA00C8858F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05DA85E2212A16BA00C8858F /* LaunchScreen.storyboard */; };
+		05DA85EF212A16BA00C8858F /* TRadarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DA85EE212A16BA00C8858F /* TRadarTests.swift */; };
+		05DA85FA212A16BA00C8858F /* TRadarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DA85F9212A16BA00C8858F /* TRadarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05DA85EB212A16BA00C8858F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05DA85CE212A16B900C8858F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05DA85D5212A16BA00C8858F;
+			remoteInfo = TRadar;
+		};
+		05DA85F6212A16BA00C8858F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05DA85CE212A16B900C8858F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05DA85D5212A16BA00C8858F;
+			remoteInfo = TRadar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05DA85D6212A16BA00C8858F /* TRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DA85D9212A16BA00C8858F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05DA85DB212A16BA00C8858F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05DA85DE212A16BA00C8858F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05DA85E0212A16BA00C8858F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05DA85E3212A16BA00C8858F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05DA85E5212A16BA00C8858F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05DA85EA212A16BA00C8858F /* TRadarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRadarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DA85EE212A16BA00C8858F /* TRadarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRadarTests.swift; sourceTree = "<group>"; };
+		05DA85F0212A16BA00C8858F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05DA85F5212A16BA00C8858F /* TRadarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRadarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DA85F9212A16BA00C8858F /* TRadarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRadarUITests.swift; sourceTree = "<group>"; };
+		05DA85FB212A16BA00C8858F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05DA85D3212A16BA00C8858F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DA85E7212A16BA00C8858F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DA85F2212A16BA00C8858F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05DA85CD212A16B900C8858F = {
+			isa = PBXGroup;
+			children = (
+				05DA85D8212A16BA00C8858F /* TRadar */,
+				05DA85ED212A16BA00C8858F /* TRadarTests */,
+				05DA85F8212A16BA00C8858F /* TRadarUITests */,
+				05DA85D7212A16BA00C8858F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05DA85D7212A16BA00C8858F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05DA85D6212A16BA00C8858F /* TRadar.app */,
+				05DA85EA212A16BA00C8858F /* TRadarTests.xctest */,
+				05DA85F5212A16BA00C8858F /* TRadarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05DA85D8212A16BA00C8858F /* TRadar */ = {
+			isa = PBXGroup;
+			children = (
+				05DA85D9212A16BA00C8858F /* AppDelegate.swift */,
+				05DA85DB212A16BA00C8858F /* ViewController.swift */,
+				05DA85DD212A16BA00C8858F /* Main.storyboard */,
+				05DA85E0212A16BA00C8858F /* Assets.xcassets */,
+				05DA85E2212A16BA00C8858F /* LaunchScreen.storyboard */,
+				05DA85E5212A16BA00C8858F /* Info.plist */,
+			);
+			path = TRadar;
+			sourceTree = "<group>";
+		};
+		05DA85ED212A16BA00C8858F /* TRadarTests */ = {
+			isa = PBXGroup;
+			children = (
+				05DA85EE212A16BA00C8858F /* TRadarTests.swift */,
+				05DA85F0212A16BA00C8858F /* Info.plist */,
+			);
+			path = TRadarTests;
+			sourceTree = "<group>";
+		};
+		05DA85F8212A16BA00C8858F /* TRadarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05DA85F9212A16BA00C8858F /* TRadarUITests.swift */,
+				05DA85FB212A16BA00C8858F /* Info.plist */,
+			);
+			path = TRadarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05DA85D5212A16BA00C8858F /* TRadar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DA85FE212A16BA00C8858F /* Build configuration list for PBXNativeTarget "TRadar" */;
+			buildPhases = (
+				05DA85D2212A16BA00C8858F /* Sources */,
+				05DA85D3212A16BA00C8858F /* Frameworks */,
+				05DA85D4212A16BA00C8858F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRadar;
+			productName = TRadar;
+			productReference = 05DA85D6212A16BA00C8858F /* TRadar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05DA85E9212A16BA00C8858F /* TRadarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DA8601212A16BA00C8858F /* Build configuration list for PBXNativeTarget "TRadarTests" */;
+			buildPhases = (
+				05DA85E6212A16BA00C8858F /* Sources */,
+				05DA85E7212A16BA00C8858F /* Frameworks */,
+				05DA85E8212A16BA00C8858F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05DA85EC212A16BA00C8858F /* PBXTargetDependency */,
+			);
+			name = TRadarTests;
+			productName = TRadarTests;
+			productReference = 05DA85EA212A16BA00C8858F /* TRadarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05DA85F4212A16BA00C8858F /* TRadarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DA8604212A16BA00C8858F /* Build configuration list for PBXNativeTarget "TRadarUITests" */;
+			buildPhases = (
+				05DA85F1212A16BA00C8858F /* Sources */,
+				05DA85F2212A16BA00C8858F /* Frameworks */,
+				05DA85F3212A16BA00C8858F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05DA85F7212A16BA00C8858F /* PBXTargetDependency */,
+			);
+			name = TRadarUITests;
+			productName = TRadarUITests;
+			productReference = 05DA85F5212A16BA00C8858F /* TRadarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05DA85CE212A16B900C8858F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Hantao;
+				TargetAttributes = {
+					05DA85D5212A16BA00C8858F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					05DA85E9212A16BA00C8858F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05DA85D5212A16BA00C8858F;
+					};
+					05DA85F4212A16BA00C8858F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05DA85D5212A16BA00C8858F;
+					};
+				};
+			};
+			buildConfigurationList = 05DA85D1212A16B900C8858F /* Build configuration list for PBXProject "TRadar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05DA85CD212A16B900C8858F;
+			productRefGroup = 05DA85D7212A16BA00C8858F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05DA85D5212A16BA00C8858F /* TRadar */,
+				05DA85E9212A16BA00C8858F /* TRadarTests */,
+				05DA85F4212A16BA00C8858F /* TRadarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05DA85D4212A16BA00C8858F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DA85E4212A16BA00C8858F /* LaunchScreen.storyboard in Resources */,
+				05DA85E1212A16BA00C8858F /* Assets.xcassets in Resources */,
+				05DA85DF212A16BA00C8858F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DA85E8212A16BA00C8858F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DA85F3212A16BA00C8858F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05DA85D2212A16BA00C8858F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DA85DC212A16BA00C8858F /* ViewController.swift in Sources */,
+				05DA85DA212A16BA00C8858F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DA85E6212A16BA00C8858F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DA85EF212A16BA00C8858F /* TRadarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DA85F1212A16BA00C8858F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DA85FA212A16BA00C8858F /* TRadarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05DA85EC212A16BA00C8858F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05DA85D5212A16BA00C8858F /* TRadar */;
+			targetProxy = 05DA85EB212A16BA00C8858F /* PBXContainerItemProxy */;
+		};
+		05DA85F7212A16BA00C8858F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05DA85D5212A16BA00C8858F /* TRadar */;
+			targetProxy = 05DA85F6212A16BA00C8858F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05DA85DD212A16BA00C8858F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05DA85DE212A16BA00C8858F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05DA85E2212A16BA00C8858F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05DA85E3212A16BA00C8858F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05DA85FC212A16BA00C8858F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05DA85FD212A16BA00C8858F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05DA85FF212A16BA00C8858F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHQUCUSUHX;
+				INFOPLIST_FILE = TRadar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hantao.TRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05DA8600212A16BA00C8858F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHQUCUSUHX;
+				INFOPLIST_FILE = TRadar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hantao.TRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05DA8602212A16BA00C8858F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHQUCUSUHX;
+				INFOPLIST_FILE = TRadarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hantao.TRadarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRadar.app/TRadar";
+			};
+			name = Debug;
+		};
+		05DA8603212A16BA00C8858F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHQUCUSUHX;
+				INFOPLIST_FILE = TRadarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hantao.TRadarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRadar.app/TRadar";
+			};
+			name = Release;
+		};
+		05DA8605212A16BA00C8858F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHQUCUSUHX;
+				INFOPLIST_FILE = TRadarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hantao.TRadarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TRadar;
+			};
+			name = Debug;
+		};
+		05DA8606212A16BA00C8858F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHQUCUSUHX;
+				INFOPLIST_FILE = TRadarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hantao.TRadarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TRadar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05DA85D1212A16B900C8858F /* Build configuration list for PBXProject "TRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DA85FC212A16BA00C8858F /* Debug */,
+				05DA85FD212A16BA00C8858F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05DA85FE212A16BA00C8858F /* Build configuration list for PBXNativeTarget "TRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DA85FF212A16BA00C8858F /* Debug */,
+				05DA8600212A16BA00C8858F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05DA8601212A16BA00C8858F /* Build configuration list for PBXNativeTarget "TRadarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DA8602212A16BA00C8858F /* Debug */,
+				05DA8603212A16BA00C8858F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05DA8604212A16BA00C8858F /* Build configuration list for PBXNativeTarget "TRadarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DA8605212A16BA00C8858F /* Debug */,
+				05DA8606212A16BA00C8858F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05DA85CE212A16B900C8858F /* Project object */;
+}
